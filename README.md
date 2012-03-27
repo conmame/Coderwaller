@@ -2,6 +2,7 @@
 coderwaller is coderwall.com API Library. Get User Achievement.
 
 ## Installation
+Require ruby version >= 1.9
 
     $ gem install coderwaller
     
