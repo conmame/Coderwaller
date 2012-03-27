@@ -1,0 +1,8 @@
+*.gem
+.bundle
+.config
+Gemfile.lock
+pkg
+tmp
+.DS_Store
+Thumbs.db
