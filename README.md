@@ -25,12 +25,13 @@ or
     puts user_achievement[:name]
     
     #get location
-    puts user_achievement[:location]
+    puts user_achievement[:location] unless user_achievement[:location].nil?
     
     #get endorsements
     puts user_achievement[:endorsements]
     
     #get accounts
+    #check user_achievement[:accounts].nil?
     user_achievement[:accounts].each do |account, name|
       puts account
       puts name
