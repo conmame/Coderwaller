@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
   s.date          = %q{2012-03-27}
   s.rdoc_options  = ["--charset=UTF-8"]
 
+  s.required_ruby_version = '>= 1.9.0'
   s.add_development_dependency('rake', '>=0.9.2.2')
   s.add_development_dependency('rspec', '>=2.9.0')
   s.add_development_dependency('webmock', '=1.8.4')
