@@ -1,4 +1,4 @@
-# Coderwaller [![Build Status](https://secure.travis-ci.org/conmame/Coderwaller.png)](http://travis-ci.org/conmame/Coderwaller) 
+# Coderwaller [![Build Status](https://secure.travis-ci.org/conmame/Coderwaller.png)](http://travis-ci.org/conmame/Coderwaller) [![Gem Status](https://gemnasium.com/conmame/Coderwaller.png)](https://gemnasium.com/conmame/Coderwaller)
 coderwaller is coderwall.com API Library. Get User Achievement.
 
 ## Installation
