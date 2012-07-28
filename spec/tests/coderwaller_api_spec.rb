@@ -16,7 +16,7 @@ describe CoderWaller::CoderwallerApi do
 
     before do
       set_webmock('ok', 'success')
-      set_webmock('hoge', 'empty', 404, 'text/html')
+      set_webmock('hoge', 'empty', 404, 'application/json')
       set_webmock('piyo', 'bad', 404, 'text/html')
     end
 
