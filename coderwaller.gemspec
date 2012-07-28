@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.name          = "coderwaller"
   s.require_paths = ["lib"]
   s.version       = Coderwaller::VERSION
-  s.date          = %q{2012-03-27}
+  s.date          = %q{2012-07-28}
   s.rdoc_options  = ["--charset=UTF-8"]
 
   s.required_ruby_version = '>= 1.9.0'

@@ -23,7 +23,7 @@ module CoderWaller
         res = Net::HTTP.start(url.host, url.port) { |http|
           http.request(Net::HTTP::Get.new(url.path))
         }
-        raise(ArgumentError, "User(#{user_name}) Not Found") if res.content_type == 'text/html' or res.code == 404
+        raise(ArgumentError, "User(#{user_name}) Not Found") if res.content_type == 'text/html' || res.code == '404'
         response = JSON.load(res.body)
       rescue ArgumentError => e
         user_data[:msg] =  e.message
